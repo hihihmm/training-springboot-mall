@@ -13,4 +13,6 @@ public interface ProductServie {
 
     void updateProduct(Integer productId, ProductRequest productRequest);
 
+    void deleteProductById(Integer productID);
+
 }
